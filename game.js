@@ -10,14 +10,14 @@ let score = 0;
 // Draw bird
 function drawBird() {
     const birdImage = new Image();
-    birdImage.src = "https://example.com/bird.png"; // Ganti dengan URL gambar burung
+    birdImage.src = "https://github.com/protocol404/Test/blob/main/46888908-8574e880-ce7f-11e8-9ead-cc837d87098d.png"; // Ganti dengan URL gambar burung
     ctx.drawImage(birdImage, birdX, birdY, birdWidth, birdHeight);
 }
 
 // Draw pipes
 function drawPipes() {
     const pipeImage = new Image();
-    pipeImage.src = "https://example.com/pipe.png"; // Ganti dengan URL gambar pipa
+    pipeImage.src = "https://github.com/protocol404/Test/blob/main/c339e6f1-a3da-470b-95f5-5a231f521dae.png"; // Ganti dengan URL gambar pipa
     // Implement logika menggambar pipa di sini
 }
 
