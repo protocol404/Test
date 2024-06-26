@@ -9,12 +9,16 @@ let score = 0;
 
 // Draw bird
 function drawBird() {
-    // Implement drawing logic for the bird (e.g., use an image or basic shape)
+    const birdImage = new Image();
+    birdImage.src = "https://example.com/bird.png"; // Ganti dengan URL gambar burung
+    ctx.drawImage(birdImage, birdX, birdY, birdWidth, birdHeight);
 }
 
 // Draw pipes
 function drawPipes() {
-    // Implement drawing logic for the pipes (e.g., use images or basic shapes)
+    const pipeImage = new Image();
+    pipeImage.src = "https://example.com/pipe.png"; // Ganti dengan URL gambar pipa
+    // Implement logika menggambar pipa di sini
 }
 
 // Update game logic
